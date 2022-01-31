@@ -1,6 +1,6 @@
 // a function for  converting farenheit(℉) to celcius(℃)
 function farenToCel(degree) {
-    var celcius = (degree-32)*5/9
+    var celcius = (degree-32)*5/9;
     return celcius;
 }
 // ex-1

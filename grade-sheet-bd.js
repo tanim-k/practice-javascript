@@ -24,8 +24,8 @@
 // }
 // learning a specific way to make a grade sheet ]
 
-function finalGrade(firstterm, secondtem, finalterm) {
-    let average = (firstterm+secondtem+finalterm)/3;
+function finalGrade(firstterm, secondterm, finalterm) {
+    let average = (firstterm+secondterm+finalterm)/3;
     switch (true){
         case (average >=0 && average <= 32):
             return 'F';
@@ -52,6 +52,7 @@ function finalGrade(firstterm, secondtem, finalterm) {
             return 'you have entered an invalid grade.';    
     }
 }
-
+// some examples
+console.log(finalGrade(70, 80, 90));
 console.log(finalGrade(99, 87, 88));
 console.log(finalGrade(76, 55,188));

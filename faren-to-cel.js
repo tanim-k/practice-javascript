@@ -1,3 +1,4 @@
+// a function for  converting farenheit(℉) to celcius(℃)00..
 function farenToCel(Ο) {
     var celcius = (Ο-32)*5/9
     return celcius;

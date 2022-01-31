@@ -1,4 +1,4 @@
-// a function for celcius to farenheit 
+// a function for celcius to farenheit :
 function celToFaren(degree) {
     var farenheit = (degree * 9/5)+32;
     return farenheit;
